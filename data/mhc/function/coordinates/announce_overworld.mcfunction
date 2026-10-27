@@ -1,0 +1,1 @@
+tellraw @a [{"text":"[mhc] ","color":"gray"},{"selector":"@s","color":"red"},{"text":" 在主世界的 "},{"score":{"name":"@s","objective":"mhu_x"}},{"text":","},{"score":{"name":"@s","objective":"mhu_y"}},{"text":","},{"score":{"name":"@s","objective":"mhu_z"}},{"text":" 处消失了","color":"yellow"}]

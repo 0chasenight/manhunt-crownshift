@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "return_from_nether": {
+      "trigger": "minecraft:nether_travel"
+    }
+  },
+  "rewards": {
+    "function": "mhc:coordinates/nether_travel"
+  }
+}
