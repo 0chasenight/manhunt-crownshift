@@ -1,7 +1,5 @@
 scoreboard players set #running mhu_state 0
-scoreboard players set #debug_mode mhu_state 0
-bossbar set mhc:debug players
-bossbar set mhc:debug visible false
+data modify storage debug_mhc:state active set value 0b
 scoreboard players add #runner_generation mhu_state 1
 scoreboard players set #runner_disconnect_ticks mhu_state 0
 tag @a remove mhu_runner

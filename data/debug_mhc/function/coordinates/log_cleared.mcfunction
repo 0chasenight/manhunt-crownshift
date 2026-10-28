@@ -1,0 +1,1 @@
+$tellraw @a [{"text":"[MHC DEBUG] "},{"selector":"@s"},{"text":" 在$(dimension)的追踪坐标已清除：("},{"score":{"name":"@s","objective":"dmc_bx"}},{"text":","},{"score":{"name":"@s","objective":"dmc_by"}},{"text":","},{"score":{"name":"@s","objective":"dmc_bz"}},{"text":") -> 无","color":"gold"}]

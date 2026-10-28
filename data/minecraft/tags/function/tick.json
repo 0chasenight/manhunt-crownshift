@@ -1,5 +1,6 @@
 {
   "values": [
-    "mhc:tick"
+    "mhc:tick",
+    "debug_mhc:debug/tick"
   ]
 }

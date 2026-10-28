@@ -3,9 +3,7 @@ tag @a remove mhu_hunter
 tag @a remove mhu_last_hitter
 tag @a remove mhu_former_runner
 team join z_mhu_other @a
-scoreboard players set #debug_mode mhu_state 0
-bossbar set mhc:debug players
-bossbar set mhc:debug visible false
+data modify storage debug_mhc:state active set value 0b
 scoreboard players set @a mhu_dim 3
 scoreboard players set @a mhu_ow_valid 0
 scoreboard players set @a mhu_ne_valid 0
