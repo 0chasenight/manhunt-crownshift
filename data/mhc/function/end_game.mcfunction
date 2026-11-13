@@ -1,3 +1,4 @@
+execute unless score #running mhc_state matches 1 run return 0
 scoreboard players set #running mhc_state 0
 title @a[tag=mhc_runner] title {"text":"胜利！","color":"gold","bold":true}
 title @a[tag=mhc_runner] subtitle {"text":"末影龙已被击败","color":"yellow"}

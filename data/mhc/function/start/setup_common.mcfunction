@@ -5,6 +5,7 @@ tag @a remove mhc_former_runner
 tag @a remove mhc_tracked
 tag @a remove mhc_compass_pending
 team join z_mhc_other @a
+advancement revoke @a only minecraft:end/kill_dragon
 scoreboard players set @a mhc_dim 3
 scoreboard players set @a mhc_ow_valid 0
 scoreboard players set @a mhc_ne_valid 0
