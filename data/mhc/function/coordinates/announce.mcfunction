@@ -1,0 +1,1 @@
+$tellraw @a [{"text":"[mhc] ","color":"gray"},{"selector":"@s","color":"red"},{"text":" 在$(oldname)的 "},{"score":{"name":"@s","objective":"mhc_x"}},{"text":","},{"score":{"name":"@s","objective":"mhc_y"}},{"text":","},{"score":{"name":"@s","objective":"mhc_z"}},{"text":" 处消失了","color":"yellow"}]

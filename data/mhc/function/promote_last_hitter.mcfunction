@@ -1,1 +1,1 @@
-execute as @a[tag=mhu_last_hitter,limit=1] run function mhc:promote
+execute as @a[tag=mhc_last_hitter,limit=1] run function mhc:promote

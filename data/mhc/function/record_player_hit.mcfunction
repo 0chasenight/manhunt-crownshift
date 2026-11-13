@@ -1,2 +1,2 @@
-tag @a remove mhu_last_hitter
-tag @s add mhu_last_hitter
+tag @a remove mhc_last_hitter
+tag @s add mhc_last_hitter

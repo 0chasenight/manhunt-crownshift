@@ -6,6 +6,8 @@ Manhunt: Crownshift is a Minecraft Java Edition 26.3 datapack for a player-versu
 
 The datapack also tracks players' last known coordinates in each dimension and announces a runner's last location when they travel through a Nether portal. If the runner disconnects, they have five minutes to reconnect before the game selects a replacement.
 
+At the start of a game every player receives a tracking compass with the Curse of Vanishing (it is not dropped on death and is re-issued after respawning). A hunter's compass always points to the runner; a runner's compass points to one hunter, and pressing the drop key (Q by default) switches to another hunter and immediately returns the compass to the hand. When the tracked player is in another dimension, the compass points to their last recorded position in your dimension; if no such record exists, the needle spins randomly.
+
 ## Installation
 
 1. Copy the `manhunt-crownshift` datapack folder into the target world's `datapacks` folder.

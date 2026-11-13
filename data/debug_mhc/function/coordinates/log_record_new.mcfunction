@@ -1,1 +1,0 @@
-$tellraw @a [{"text":"[MHC DEBUG] "},{"selector":"@s"},{"text":" 在$(dimension)新增追踪坐标：无 -> ("},{"score":{"name":"@s","objective":"mhu_x"}},{"text":","},{"score":{"name":"@s","objective":"mhu_y"}},{"text":","},{"score":{"name":"@s","objective":"mhu_z"}},{"text":")","color":"gold"}]
