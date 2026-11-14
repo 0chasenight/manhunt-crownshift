@@ -13,6 +13,7 @@ scoreboard players set @a mhc_end_valid 0
 execute as @a run function mhc:coordinates/tick
 scoreboard players set #running mhc_state 1
 scoreboard players set #dragon_seen mhc_state 0
+scoreboard players set #dragon_gone mhc_state 0
 scoreboard players add #runner_generation mhc_state 1
 scoreboard players set #runner_disconnect_ticks mhc_state 0
 execute as @a run scoreboard players set @s mhc_prev 0
