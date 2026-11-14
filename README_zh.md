@@ -10,7 +10,7 @@
 
 ## 安装
 
-1. 将数据包文件夹 `manhunt-crownshift` 复制到目标存档的 `datapacks` 文件夹中。
+1. 将数据包文件夹 `manhunt-crownshift` 复制到目标存档的 `datapacks` 文件夹中或在创建世界时添加数据包。
 2. 进入或重新打开存档。若存档已经打开，在聊天栏执行 `/reload`。
 
 本数据包适用于 Minecraft Java 版 26.3。

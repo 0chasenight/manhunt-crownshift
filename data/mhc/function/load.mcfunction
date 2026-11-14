@@ -33,8 +33,8 @@ execute unless score #runner_disconnect_ticks mhc_state matches -2147483648..214
 execute unless score #scale mhc_coord matches 32 run scoreboard players set #scale mhc_coord 32
 execute unless score #sweep mhc_coord matches -2147483648..2147483647 run scoreboard players set #sweep mhc_coord 0
 execute unless score #teams_ready mhc_state matches 1 run function mhc:setup_teams
-tellraw @a[tag=!mhc_loaded] {"text":"猎人游戏：王冠易主 v0.0.4","color":"gold"}
-tellraw @a[tag=!mhc_loaded] {"text":"Manhunt: Crownshift v0.0.4","color":"gold"}
-tellraw @a[tag=!mhc_loaded] {"text":"GitHub: https://github.com/0chasenight/manhunt-crownshift","color":"aqua","click_event":{"action":"open_url","url":"https://github.com/0chasenight/manhunt-crownshift"}}
+tellraw @a[tag=!mhc_loaded] {"text":"猎人游戏：王冠易主 v0.1","color":"gold"}
+tellraw @a[tag=!mhc_loaded] {"text":"Manhunt: Crownshift v0.1","color":"gold"}
+tellraw @a[tag=!mhc_loaded] {"text":"GitHub: https://github.com/7iceluck/manhunt-crownshift","color":"aqua","click_event":{"action":"open_url","url":"https://github.com/7iceluck/manhunt-crownshift"}}
 tellraw @a[tag=!mhc_loaded] {"text":"执行/function mhc:start以开始游戏。","color":"green","click_event":{"action":"suggest_command","command":"/function mhc:start"}}
 tellraw @a[tag=!mhc_loaded] {"text":'或执行/function mhc:start_player {player:"玩家名"}指定逃脱者开始游戏。',"color":"green","click_event":{"action":"suggest_command","command":'/function mhc:start_player {player:"'}}
